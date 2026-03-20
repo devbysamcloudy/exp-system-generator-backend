@@ -6,7 +6,9 @@ from .routes import router
 
 
 origins = [
-    "http://localhost:5173" ]
+    "http://localhost:5173",
+    "https://exp-frontend-flame.vercel.app" 
+    ]
 
 def create_app() -> FastAPI:
     app = FastAPI()
